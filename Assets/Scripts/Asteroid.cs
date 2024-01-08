@@ -5,7 +5,7 @@ using UnityEngine;
 public class Asteroid : MonoBehaviour
 {
     private Rigidbody2D asteroid;
-    public float Speed = 10f;
+    public float Speed = 5f;
     private Vector2 movement;
 
     // Start is called before the first frame update

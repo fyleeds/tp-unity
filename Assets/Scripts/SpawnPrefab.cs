@@ -19,12 +19,16 @@ public class SpawnPrefab : MonoBehaviour
 
             // Reset the timer and set the next spawn interval
             currentTime = 0;
-            Maxtime = Random.Range(0, 0.8f); // Increase these values to reduce spawn rate
+            Maxtime = Random.Range(2f, 4f); // Increase these values to reduce spawn rate
         }
     }
 
     public void SpawnAsteroids()
     {
-        Instantiate(Asteroids[Random.Range(0, Asteroids.Length)], new Vector3(transform.position.x, Random.Range(minY, maxY), 0), Quaternion.identity);
+        Vector3 spawnposition = new Vector3(transform.position.x, Random.Range(minY, maxY), 0);
+        int index = Random.Range(0, Asteroids.Length);
+        Instantiate(Asteroids[index],spawnposition, Quaternion.identity);
+        Debug.Log("Spawning asteroid at: " + spawnposition);
+        Debug.Log("asteroid num " + index);
     }
 }

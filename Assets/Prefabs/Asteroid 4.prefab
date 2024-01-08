@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7246921618321816256}
   - component: {fileID: 8436216819290871221}
   - component: {fileID: 9188430215624557587}
+  - component: {fileID: 6193844587201919103}
   m_Layer: 0
   m_Name: Asteroid 4
   m_TagString: Asteroids
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: f254e398beb012142a24633fa2b82def, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -116,12 +117,12 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.04822886}
   serializedVersion: 2
-  m_Radius: 0.995
+  m_Radius: 1
 --- !u!50 &8436216819290871221
 Rigidbody2D:
   serializedVersion: 4
@@ -138,7 +139,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 74793488fd9c0084e8e5cb23c51e5366, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -146,7 +147,7 @@ Rigidbody2D:
     serializedVersion: 2
     m_Bits: 0
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 0
 --- !u!114 &9188430215624557587
@@ -161,4 +162,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ede31aeb96baf744b979ce11f813be05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 3
+  Speed: 2
+--- !u!114 &6193844587201919103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6826967376475289057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7d6c34485954654380edf9e67a138d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
