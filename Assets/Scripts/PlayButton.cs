@@ -8,7 +8,6 @@ public class ButtonsController : MonoBehaviour
 
     public void OnButtonClick()
     {
-        Debug.Log("Button Clicked!");
         LoadGame();
         
     }

@@ -28,7 +28,6 @@ public class SpawnPrefab : MonoBehaviour
         Vector3 spawnposition = new Vector3(transform.position.x, Random.Range(minY, maxY), 0);
         int index = Random.Range(0, Asteroids.Length);
         Instantiate(Asteroids[index],spawnposition, Quaternion.identity);
-        Debug.Log("Spawning asteroid at: " + spawnposition);
-        Debug.Log("asteroid num " + index);
+        
     }
 }

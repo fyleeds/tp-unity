@@ -12,7 +12,6 @@ public class PlayerCollide2 : MonoBehaviour
         // Check if the collision is with the specific item
         if (collision.gameObject.CompareTag("Asteroids"))
         {
-            Debug.Log("Collided with " + collision.gameObject.name);
             LoadGameOver();
         }
     }
