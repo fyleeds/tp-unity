@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ennemy
   - Asteroids
+  - Borders
   layers:
   - Default
   - TransparentFX
