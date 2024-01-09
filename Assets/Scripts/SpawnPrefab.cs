@@ -19,7 +19,7 @@ public class SpawnPrefab : MonoBehaviour
 
             // Reset the timer and set the next spawn interval
             currentTime = 0;
-            Maxtime = Random.Range(2f, 4f); // Increase these values to reduce spawn rate
+            Maxtime = Random.Range(1f, 1.5f); // Increase these values to reduce spawn rate
         }
     }
 

@@ -13,8 +13,7 @@ GameObject:
   - component: {fileID: 6353634288004790651}
   - component: {fileID: 7279641226660442526}
   - component: {fileID: 7085877102224553278}
-  - component: {fileID: 1617554325496036873}
-  - component: {fileID: 1190059787724335733}
+  - component: {fileID: 5382158521739072548}
   m_Layer: 0
   m_Name: Asteroid 6
   m_TagString: Asteroids
@@ -101,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ede31aeb96baf744b979ce11f813be05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 3
+  Speed: 4
 --- !u!58 &7279641226660442526
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -164,19 +163,7 @@ Rigidbody2D:
   m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1617554325496036873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7698439968614451610}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7d6c34485954654380edf9e67a138d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1190059787724335733
+--- !u!114 &5382158521739072548
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

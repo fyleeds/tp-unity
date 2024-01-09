@@ -101,8 +101,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 10
-  maxY: 4
-  minY: -4
+  maxY: 5
+  minY: -5
   maxX: 10
   minX: -20
 --- !u!50 &3649323254978501278
