@@ -1,4 +1,4 @@
-Le groupe pour le TP : Clément PENOT, Timothée RANVIN
+Le groupe pour le TP : Clément PENOT, Timothee RANVIN
 
 Peer programming sur Visual Studio Code
 
