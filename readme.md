@@ -1,11 +1,40 @@
-Le groupe pour le TP : Clément PENOT, Timothee RANVIN
+# Space Game 2D
 
 Peer programming sur Visual Studio Code
 
-Comment jouer ?
+### Key Features:
+- Dynamic and random obstacles that challenge the player
 
-    Assurez-vous d'avoir Unity installé.
-    Chargez la scène dans Unity.
-    Cliquez sur "Play" pour démarrer le jeu dans l'interface unity.
+## 📹 Camera
+- The camera is fixed, providing a consistent view of the gameplay area.
 
-Une fois le jeu lancé sur Unity, vous pouvez déplacer votre vaisseau avec les touches ZQSD ou les flèches du clavier. Le but est d'esquiver les astéroïdes et de survivre le plus longtemps possible. Si vous perdez, une scène se charge pour vous proposer de relancer ou non le jeu.
+## ⌨ Controls
+- The player has a ZQSD/WASD controls to move in 4 directions
+
+## 👾 Character
+- The character can only move in 4 directions
+- Colliding with an obstacle or falling results in game over.
+
+## 📝 Functionality
+- Obstacles approach the player and disappear off-screen.
+- A menu with 'Play' and 'Quit' options, spread across two scenes.
+
+## Getting Started
+Follow these instructions to set up the game in your local environment.
+
+### Prerequisites
+- Unity (Version 2022 or later)
+- .NET
+
+### Installation
+1. Clone the repository or download the source code.
+2. Open the project in Unity.
+3. Load the GameOver scene and SampleScene
+4. Hit the 'Play' button to test the game OR File -> Build and Run
+
+### Authors
+Ranvin Thimothee & Clement Penot
+
+## Acknowledgments
+- Inspiration from Subway Surfer
+- Unity Community for various resources and tutorials
